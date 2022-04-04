@@ -1,0 +1,52 @@
+.container {
+    columns: 4 auto;
+}
+
+.movies-list {
+    font-size: 26px;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: left;
+    line-height: 50px;
+}
+
+.movies-list-block {
+    width: 315px;
+    height: 150px;
+    border: solid 1px #ddf;
+    margin: 5px 5px 20px 5px;
+    cursor: pointer;
+    float: left;
+}
+
+.movie-image {
+    width: 50%;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+}
+
+.movie-name-title {
+    padding: 0px 10px;
+    font-weight: bold;
+}
+
+.movie-name-comment {
+    padding: 0px 10px;
+}
+
+.add-movies-button {
+    text-align: center;
+}
+
+.nomovies-content {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+    .container {
+        columns: 2 auto;
+    }
+}
